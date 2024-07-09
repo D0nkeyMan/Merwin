@@ -1,0 +1,12 @@
+ID,Name,Method,RegistryPath,RegistryItem,Value
+T1015,sethc.exe,RegistryVal,HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\sethc.exe,Debugger,
+T1015,utilman.exe,RegistryVal,HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\utilman.exe,Debugger,
+T1015,AtBroker.exe,RegistryVal,HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\AtBroker.exe,Debugger,
+T1015,Narrator.exe,RegistryVal,HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\Narrator.exe,Debugger,
+T1015,Magnify.exe,RegistryVal,HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\Magnify.exe,Debugger,
+T1015,DisplaySwitch.exe,RegistryVal,HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\DisplaySwitch.exe,Debugger,
+T1015,osk.exe,RegistryVal,HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\osk.exe,Debugger,
+T1182,AppCert DLLs,RegistryVal,HKLM:\System\CurrentControlSet\Control\Session Manager,AppCertDlls,
+T1103,AppInit DLLs,RegistryVal,HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Windows,Appinit_Dlls,
+T1103,AppInit DLLs,RegistryVal,HKLM:\Software\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Windows,Appinit_Dlls,
+T1138,Application Shimming,RegistryKey,HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Custom,,
